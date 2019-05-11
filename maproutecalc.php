@@ -207,7 +207,7 @@
         });
       }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpLkx1uRpSIyrXLh3sXXdoFWRUU_n8lZI&libraries=places&callback=initMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=[---your--key--here--]"
         async defer></script> 
   </body>
 </html>

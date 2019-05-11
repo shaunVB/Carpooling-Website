@@ -1,0 +1,166 @@
+.register-form form.custom-form{
+  padding:55px;
+  box-sizing:border-box;
+  background-color:#ffffff;
+  box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  font:bold 14px sans-serif;
+  text-align:center;
+  margin:50px;
+  color:#333;
+}
+
+@media (max-width:400px) {
+  .register-form form.custom-form{
+    padding:55px 10px;
+  }
+}
+.Test1
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+   background-color: #00fffff;
+
+
+}
+.Test2
+{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.col-md-12:hover .Test1
+{
+  opacity: 1;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);;
+
+}
+.register-form .custom-form h1{
+  display:inline-block;
+  color:#4c565e;
+  font-size:24px;
+  font-weight:bold;
+  padding:0 10px 15px;
+  margin-bottom:60px;
+  border-bottom:2px solid rgb(108, 174, 224);
+}
+
+.register-form .custom-form .form-group{
+  margin-bottom:25px;
+}
+
+.register-form .custom-form .label-column{
+  text-align:right;
+  color:#5F5F5F;
+}
+
+@media (max-width:768px) {
+  .register-form .custom-form .label-column{
+    text-align:left;
+  }
+}
+
+.register-form .custom-form .input-column{
+  color:#5f5f5f;
+  text-align:left;
+}
+
+.register-form .custom-form .input-column input{
+  color:#5f5f5f;
+  box-shadow:1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding:12px;
+  border:1px solid #dbdbdb;
+  border-radius:2px;
+  height:42px;
+}
+
+.register-form .custom-form .dropdown .dropdown-toggle{
+  background:#fff;
+  border:1px solid #dbdbdb;
+  box-shadow:1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  color:#333;
+  outline:none;
+}
+
+.register-form .custom-form .dropdown ul{
+  background:#fff;
+}
+
+.register-form .custom-form .dropdown ul li a{
+  background:#fff;
+  color:#333;
+  opacity:0.8;
+}
+
+.register-form .custom-form .dropdown ul li a:hover{
+  opacity:1;
+}
+
+.register-form .custom-form .submit-button{
+  border-radius:2px;
+  background:#6caee0;
+  color:#ffffff;
+  font-weight:bold;
+  box-shadow:1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding:14px 22px;
+  border:0;
+  margin:30px;
+  outline:none;
+}
+
+div.form-group{
+  width:initial;
+  margin-left: 0;
+}
+
+div.col-md-12{
+  width:33.33%;
+  height: inherit;
+}
+
+input.form-control{
+  width:initial;
+}
+
+label.control-label{
+}
+
+div.col-sm-4.label-column{
+  text-align:center;
+}
+
+label.control-label{
+  text-align:start;
+}
+
+footer{
+  margin:0;
+  width:2000px;
+}
+
+div.col-md-12{
+  position: relative;
+  height: inherit;
+}
+
+
+footer{
+  width:1200px;
+}
+
+#form1
+{
+  float: left;
+
+}
